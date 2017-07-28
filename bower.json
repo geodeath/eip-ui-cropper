@@ -1,12 +1,13 @@
 {
   "name": "eip-ui-cropper",
+  "version": "1.0.0",
   "prettyName": "eipUiCropper",
   "authors": [
     "[object Object]"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/eip-tools"
+    "url": "https://github.com/geodeath/eip-ui-cropper.git"
   },
   "description": "Image crop directive for AngularJS, square, circle and rectangle areas. Working with aspects. Modified for use with the Particle CMS",
   "main": [
@@ -24,5 +25,5 @@
   "dependencies": {
     "angular": ">=1.4.0"
   },
-  "homepage": ""
+  "homepage": "https://github.com/geodeath/eip-ui-cropper"
 }
