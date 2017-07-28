@@ -67,7 +67,7 @@ var Config = {
 
 // Compile Styles
 gulp.task('styles', function () {
-    return gulp.src(Config.paths.source.scss + '/ui-cropper.scss')
+    return gulp.src(Config.paths.source.scss + '/eip-ui-cropper.scss')
         .pipe(compass({
             sass: Config.paths.source.scss,
             css: Config.paths.compileUnminified.css,
@@ -82,9 +82,9 @@ gulp.task('scripts-part-1', function () {
     return gulp.src([
         Config.paths.source.js + '/init.js',
         Config.paths.source.js + '/classes/*.js',
-        Config.paths.source.js + '/ui-cropper.js'
+        Config.paths.source.js + '/eip-ui-cropper.js'
     ])
-        .pipe(concat('ui-cropper' + '.js', {
+        .pipe(concat('eip-ui-cropper' + '.js', {
             separator: '\n\n',
             process: function (src) {
                 // Remove all 'use strict'; from the code and
@@ -102,10 +102,10 @@ gulp.task('scripts-part-1', function () {
 
 gulp.task('scripts-part-2', function () {
     return gulp.src([
-        Config.paths.tmp + '/ui-cropper' + '.js',
+        Config.paths.tmp + '/eip-ui-cropper' + '.js',
         Config.paths.source.js + '/3rdparty/!(exif).js'
     ])
-        .pipe(concat('ui-cropper' + '.js', {
+        .pipe(concat('eip-ui-cropper' + '.js', {
             separator: '\n\n',
             process: function (src) {
                 // Remove all 'use strict'; from the code and

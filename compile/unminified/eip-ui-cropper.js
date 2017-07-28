@@ -1,14 +1,14 @@
 /*!
- * uiCropper v1.0.4
- * https://crackerakiua.github.io/ui-cropper/
+ * eipUiCropper v1.0.1
+ * undefined
  *
- * Copyright (c) 2017 Alex Kaul
- * License: MIT
+ * Copyright (c) 2017 George Ioakeimidis 
+ * License: ISC
  *
- * Generated at Thursday, July 27th, 2017, 3:34:15 PM
+ * Generated at Friday, July 28th, 2017, 5:28:32 PM
  */
 (function() {
-angular.module('uiCropper', []);
+angular.module('eipUiCropper', []);
 
 angular.module('uiCropper').factory('cropAreaCircle', ['cropArea', function(CropArea) {
     var CropAreaCircle = function() {
@@ -3038,7 +3038,7 @@ angular.module('uiCropper').factory('cropPubSub', [function() {
     };
 }]);
 
-angular.module('uiCropper').directive('uiCropper', ['$timeout', 'cropHost', 'cropPubSub', function ($timeout, CropHost, CropPubSub) {
+angular.module('eipUiCropper').directive('eipUiCropper', ['$timeout', 'cropHost', 'cropPubSub', function ($timeout, CropHost, CropPubSub) {
     return {
         restrict: 'E',
         scope: {
@@ -3122,7 +3122,6 @@ angular.module('uiCropper').directive('uiCropper', ['$timeout', 'cropHost', 'cro
 
                   scope.resultImageFormat = format;
                   cropHost.setResultImageFormat(scope.resultImageFormat);
-                  console.log ( 666, scope.resultImageFormat );
 
                     var resultImageObj = cropHost.getResultImage();
                     var resultImage;
@@ -3323,11 +3322,6 @@ angular.module('uiCropper').directive('uiCropper', ['$timeout', 'cropHost', 'cro
             scope.$watch('minCanvasDimensions', function () {
                 cropHost.setMinCanvasDimensions(scope.minCanvasDimensions);
             });
-            //scope.$watch('resultImageFormat', function () {
-            //    console.log ( 'format changed', scope.resultImageFormat);
-            //    cropHost.setResultImageFormat(scope.resultImageFormat);
-            //    updateResultImage(scope);
-            //});
             scope.$watch('resultImageQuality', function () {
                 cropHost.setResultImageQuality(scope.resultImageQuality);
                 updateResultImage(scope);

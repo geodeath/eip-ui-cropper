@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('uiCropper', []);
+angular.module('eipUiCropper', []);

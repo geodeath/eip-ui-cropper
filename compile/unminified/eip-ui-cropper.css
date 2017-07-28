@@ -1,36 +1,36 @@
-/* line 1, ../../source/scss/ui-cropper.scss */
+/* line 1, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper {
   width: 100%;
   display: block;
 }
-/* line 3, ../../source/scss/ui-cropper.scss */
+/* line 3, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper.fixed-height {
   height: 100%;
   position: relative;
   overflow: hidden;
 }
-/* line 7, ../../source/scss/ui-cropper.scss */
+/* line 7, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper.fixed-height canvas {
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
 }
-/* line 14, ../../source/scss/ui-cropper.scss */
+/* line 14, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper.full-width {
   text-align: center;
 }
-/* line 16, ../../source/scss/ui-cropper.scss */
+/* line 16, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper.full-width canvas {
   display: inline;
 }
-/* line 22, ../../source/scss/ui-cropper.scss */
+/* line 22, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper canvas {
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   /* mobile webkit */
 }
-/* line 28, ../../source/scss/ui-cropper.scss */
+/* line 28, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper .loading {
   width: 100%;
   font-size: 16px;
@@ -50,7 +50,7 @@ ui-cropper .loading {
   color: white;
   background-color: rgba(0, 0, 0, 0.75);
 }
-/* line 29, ../../source/scss/ui-cropper.scss */
+/* line 29, ../../source/scss/eip-ui-cropper.scss */
 ui-cropper .loading .fixed-height {
   height: 100%;
   position: absolute;
