@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('uiCropper').factory('cropCanvas', [function() {
+angular.module('eipUiCropper').factory('cropCanvas', [function() {
     // Shape = Array of [x,y]; [0, 0] - center
     var shapeArrowNW = [
         [-0.5, -2],

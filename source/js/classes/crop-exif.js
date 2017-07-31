@@ -4,7 +4,7 @@
 'use strict';
 /*eslint-disable */
 //Disable eslint as this is a 3rd party lib
-angular.module('uiCropper').service('cropEXIF', [function () {
+angular.module('eipUiCropper').service('cropEXIF', [function () {
     var debug = false;
 
     var ExifTags = this.Tags = {

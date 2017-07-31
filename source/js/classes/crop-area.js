@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('uiCropper').factory('cropArea', ['cropCanvas', function (CropCanvas) {
+angular.module('eipUiCropper').factory('cropArea', ['cropCanvas', function (CropCanvas) {
     var CropArea = function (ctx, events) {
         this._ctx = ctx;
         this._events = events;
