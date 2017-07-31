@@ -5,7 +5,7 @@
  * Copyright (c) 2017 George Ioakeimidis 
  * License: ISC
  *
- * Generated at Monday, July 31st, 2017, 10:49:08 AM
+ * Generated at Monday, July 31st, 2017, 11:04:35 AM
  */
 (function() {
 angular.module('eipUiCropper', []);
