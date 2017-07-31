@@ -1,9 +1,9 @@
 {
   "name": "eip-ui-cropper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "prettyName": "eipUiCropper",
   "authors": [
-    "[object Object]"
+    "George Ioakeimidis"
   ],
   "repository": {
     "type": "git",
