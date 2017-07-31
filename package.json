@@ -12,7 +12,7 @@
   "name": "eip-ui-cropper",
   "prettyName": "eipUiCropper",
   "description": "Image crop directive for AngularJS, square, circle and rectangle areas. Working aspect. Features like export array and more comming. Customised for Particle CMS",
-  "main": "compile/unminified/ui-cropper.js",
+  "main": "compile/unminified/eip-ui-cropper.js",
   "license": "ISC",
   "repository": {
     "type": "git",

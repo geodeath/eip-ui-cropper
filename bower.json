@@ -11,8 +11,8 @@
   },
   "description": "Image crop directive for AngularJS, square, circle and rectangle areas. Working with aspects. Modified for use with the Particle CMS",
   "main": [
-    "compile/minified/ui-cropper.js",
-    "compile/minified/ui-cropper.css"
+    "compile/minified/eip-ui-cropper.js",
+    "compile/minified/eip-ui-cropper.css"
   ],
   "license": "ISC",
   "ignore": [
