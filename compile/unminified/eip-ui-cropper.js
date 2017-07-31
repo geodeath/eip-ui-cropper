@@ -5,12 +5,12 @@
  * Copyright (c) 2017 George Ioakeimidis 
  * License: ISC
  *
- * Generated at Monday, July 31st, 2017, 10:35:37 AM
+ * Generated at Monday, July 31st, 2017, 10:49:08 AM
  */
 (function() {
 angular.module('eipUiCropper', []);
 
-angular.module('uiCropper').factory('cropAreaCircle', ['cropArea', function(CropArea) {
+angular.module('eipUiCropper').factory('cropAreaCircle', ['cropArea', function(CropArea) {
     var CropAreaCircle = function() {
         CropArea.apply(this, arguments);
 
@@ -178,7 +178,7 @@ angular.module('uiCropper').factory('cropAreaCircle', ['cropArea', function(Crop
     return CropAreaCircle;
 }]);
 
-angular.module('uiCropper').factory('cropAreaRectangle', ['cropArea', function (CropArea) {
+angular.module('eipUiCropper').factory('cropAreaRectangle', ['cropArea', function (CropArea) {
     var CropAreaRectangle = function () {
         CropArea.apply(this, arguments);
 
@@ -427,7 +427,7 @@ angular.module('uiCropper').factory('cropAreaRectangle', ['cropArea', function (
     return CropAreaRectangle;
 }]);
 
-angular.module('uiCropper').factory('cropAreaSquare', ['cropArea', function(CropArea) {
+angular.module('eipUiCropper').factory('cropAreaSquare', ['cropArea', function(CropArea) {
     var CropAreaSquare = function() {
         CropArea.apply(this, arguments);
 
@@ -744,7 +744,7 @@ angular.module('uiCropper').factory('cropAreaSquare', ['cropArea', function(Crop
     return CropAreaSquare;
 }]);
 
-angular.module('uiCropper').factory('cropArea', ['cropCanvas', function (CropCanvas) {
+angular.module('eipUiCropper').factory('cropArea', ['cropCanvas', function (CropCanvas) {
     var CropArea = function (ctx, events) {
         this._ctx = ctx;
         this._events = events;
@@ -1156,7 +1156,7 @@ angular.module('uiCropper').factory('cropArea', ['cropCanvas', function (CropCan
     return CropArea;
 }]);
 
-angular.module('uiCropper').factory('cropCanvas', [function() {
+angular.module('eipUiCropper').factory('cropCanvas', [function() {
     // Shape = Array of [x,y]; [0, 0] - center
     var shapeArrowNW = [
         [-0.5, -2],
@@ -1358,7 +1358,7 @@ angular.module('uiCropper').factory('cropCanvas', [function() {
  */
 /*eslint-disable */
 //Disable eslint as this is a 3rd party lib
-angular.module('uiCropper').service('cropEXIF', [function () {
+angular.module('eipUiCropper').service('cropEXIF', [function () {
     var debug = false;
 
     var ExifTags = this.Tags = {
@@ -2163,7 +2163,7 @@ angular.module('uiCropper').service('cropEXIF', [function () {
     };
 }]);
 
-angular.module('uiCropper').factory('cropHost', ['$document', '$q', 'cropAreaCircle', 'cropAreaSquare', 'cropAreaRectangle', 'cropEXIF', function ($document, $q, CropAreaCircle, CropAreaSquare, CropAreaRectangle, cropEXIF) {
+angular.module('eipUiCropper').factory('cropHost', ['$document', '$q', 'cropAreaCircle', 'cropAreaSquare', 'cropAreaRectangle', 'cropEXIF', function ($document, $q, CropAreaCircle, CropAreaSquare, CropAreaRectangle, cropEXIF) {
     /* STATIC FUNCTIONS */
     var colorPaletteLength = 8;
     
@@ -3015,7 +3015,7 @@ angular.module('uiCropper').factory('cropHost', ['$document', '$q', 'cropAreaCir
     };
 }]);
 
-angular.module('uiCropper').factory('cropPubSub', [function() {
+angular.module('eipUiCropper').factory('cropPubSub', [function() {
     return function() {
         var events = {};
         // Subscribe
