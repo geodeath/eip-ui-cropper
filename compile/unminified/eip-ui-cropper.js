@@ -1,11 +1,11 @@
 /*!
- * eipUiCropper v1.0.8
+ * eipUiCropper v1.1.0
  * undefined
  *
  * Copyright (c) 2018 George Ioakeimidis 
  * License: ISC
  *
- * Generated at Tuesday, April 24th, 2018, 3:40:47 PM
+ * Generated at Tuesday, April 24th, 2018, 3:52:12 PM
  */
 (function() {
 angular.module('eipUiCropper', []);
@@ -2291,13 +2291,6 @@ angular.module('eipUiCropper').factory('cropHost', ['$document', '$q', 'cropArea
                         cw = ch;
                     }
                     ch = cw;
-                } //else if (areaType === 'rectangle' && isAspectRatio) {
-                  //  var aspectRatio = theArea.getAspect(); // use `aspectRatio` instead of `resImgSize` dimensions bc `resImgSize` can be 'selection' string
-                  //  if (cw / ch > aspectRatio) {
-                  //      cw = aspectRatio * ch;
-                  //  } else {
-                  //      ch = aspectRatio * cw;
-                  //  }
                 }
 
                 if (initMax) {

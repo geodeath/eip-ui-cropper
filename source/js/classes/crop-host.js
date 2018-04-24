@@ -128,13 +128,6 @@ angular.module('eipUiCropper').factory('cropHost', ['$document', '$q', 'cropArea
                         cw = ch;
                     }
                     ch = cw;
-                } //else if (areaType === 'rectangle' && isAspectRatio) {
-                  //  var aspectRatio = theArea.getAspect(); // use `aspectRatio` instead of `resImgSize` dimensions bc `resImgSize` can be 'selection' string
-                  //  if (cw / ch > aspectRatio) {
-                  //      cw = aspectRatio * ch;
-                  //  } else {
-                  //      ch = aspectRatio * cw;
-                  //  }
                 }
 
                 if (initMax) {
