@@ -1,0 +1,50 @@
+{
+  "version": "1.0.1",
+  "author": {
+    "name": "George Ioakeimidis ",
+    "email": "george.ioakeimidis@telegraph.co.uk"
+  },
+  "contributors": [
+    {
+      "name": "Oliver Edgington"
+    }
+  ],
+  "name": "eip-ui-cropper",
+  "prettyName": "eipUiCropper",
+  "description": "Image crop directive for AngularJS, square, circle and rectangle areas. Working aspect. Features like export array and more comming. Customised for Particle CMS",
+  "main": "compile/unminified/eip-ui-cropper.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/eip-tools"
+  },
+  "dependencies": {
+    "angular": ">=1.4.0",
+    "compass": "^0.1.1",
+    "ruby": "^0.6.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.4.0",
+    "eslint": "^3.12.2",
+    "express": "^4.4.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "0.0.8",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-compass": "^1.1.9",
+    "gulp-concat": "^2.2.0",
+    "gulp-concat-util": "^0.2.3",
+    "gulp-eslint": "^3.0.1",
+    "gulp-header": "^1.0.2",
+    "gulp-livereload": "^2.1.0",
+    "gulp-ng-annotate": "^0.2.0",
+    "gulp-open": "^0.2.8",
+    "gulp-plumber": "^0.6.3",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^2.2.19",
+    "minimist": "^0.2.0",
+    "opn": "^0.1.2",
+    "run-sequence": "^1.1.0",
+    "tiny-lr": "0.0.7"
+  }
+}
