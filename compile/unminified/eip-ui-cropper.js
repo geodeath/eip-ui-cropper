@@ -1,11 +1,11 @@
 /*!
- * eipUiCropper v1.0.1
+ * eipUiCropper v1.0.8
  * undefined
  *
  * Copyright (c) 2018 George Ioakeimidis 
  * License: ISC
  *
- * Generated at Tuesday, April 24th, 2018, 2:10:00 PM
+ * Generated at Tuesday, April 24th, 2018, 3:40:47 PM
  */
 (function() {
 angular.module('eipUiCropper', []);
